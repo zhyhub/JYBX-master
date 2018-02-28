@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/base_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="50dp"
+                android:background="@mipmap/fenqu">
+
+                <TextView
+                    android:id="@+id/lengCang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/bianWen"
+                    android:layout_alignStart="@+id/bianWen"
+                    android:layout_marginBottom="24dp"
+                    android:padding="20dp"
+                    android:text="冷藏"
+                    android:textColor="@color/color_666" />
+
+                <TextView
+                    android:padding="20dp"
+                    android:id="@+id/bianWen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/lengDong"
+                    android:layout_centerVertical="true"
+                    android:text="变温"
+                    android:textColor="@color/color_666" />
+
+                <TextView
+                    android:id="@+id/lengDong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="25dp"
+                    android:padding="20dp"
+                    android:text="冷冻"
+                    android:textColor="@color/color_666" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="请选择食物存放的位置"
+                android:textColor="@color/theme_other"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

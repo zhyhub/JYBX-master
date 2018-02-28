@@ -1,0 +1,70 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhenghaoyu/Android/joyoung/JYBX/circlerefresh/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-af/values-af.xml",
+            "map": [
+                {
+                    "source": "/Users/zhenghaoyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/baeaa1d31fbeb4f2d82f48dccf562141/res/values-af/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,395,495,601,686,789,907,1014,1117,1214,1322,1424,1526",
+                        "endColumns": "103,99,105,84,102,117,106,102,96,107,101,101,116",
+                        "endOffsets": "390,490,596,681,784,902,1009,1112,1209,1317,1419,1521,1638"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,259,365,450,553,671,778,881,978,1086,1188,1290",
+                        "endColumns": "103,99,105,84,102,117,106,102,96,107,101,101,116",
+                        "endOffsets": "154,254,360,445,548,666,773,876,973,1081,1183,1285,1402"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/zhenghaoyu/Android/joyoung/JYBX/G:\\JYBX\\circlerefresh\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-af\\values-af.xml",
+            "map": [
+                {
+                    "source": "/Users/zhenghaoyu/Android/joyoung/JYBX/C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.1.aar\\c293ab5ea2b59a9bb6e9195044a0dc6b\\res\\values-af\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,395,495,601,686,789,907,1014,1117,1214,1322,1424,1526",
+                        "endColumns": "103,99,105,84,102,117,106,102,96,107,101,101,116",
+                        "endOffsets": "390,490,596,681,784,902,1009,1112,1209,1317,1419,1521,1638"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,259,365,450,553,671,778,881,978,1086,1188,1290",
+                        "endColumns": "103,99,105,84,102,117,106,102,96,107,101,101,116",
+                        "endOffsets": "154,254,360,445,548,666,773,876,973,1081,1183,1285,1402"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/zhenghaoyu/Coder/Android/joyoung/JYBX-master/circlerefresh/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-af/values-af.xml",
+            "map": [
+                {
+                    "source": "/Users/zhenghaoyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/baeaa1d31fbeb4f2d82f48dccf562141/res/values-af/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,395,495,601,686,789,907,1014,1117,1214,1322,1424,1526",
+                        "endColumns": "103,99,105,84,102,117,106,102,96,107,101,101,116",
+                        "endOffsets": "390,490,596,681,784,902,1009,1112,1209,1317,1419,1521,1638"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,259,365,450,553,671,778,881,978,1086,1188,1290",
+                        "endColumns": "103,99,105,84,102,117,106,102,96,107,101,101,116",
+                        "endOffsets": "154,254,360,445,548,666,773,876,973,1081,1183,1285,1402"
+                    }
+                }
+            ]
+        }
+    ]
+}

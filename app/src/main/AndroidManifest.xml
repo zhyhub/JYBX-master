@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bx.jz.jy.jybx">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <application
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:name=".application.MyApplication"
+        tools:replace="android:icon, android:theme"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.EditorsMaterialActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".activity.AddMaterialActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.SearchActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.FoodEncyclopediaActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.AddBxActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.AddBySelfActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.ShowCameraActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.AlbumActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.PolygonsActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.CookBookActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".utils.Settings"
+            android:label="@string/settings">
+        </activity>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5a2f2e63f43e4816bc00018c">
+        </meta-data>
+
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="05f9cbf50ede664ed506ef2dc7e39a99">
+        </meta-data>
+
+        <service
+            android:name="com.joyoung.sdk.service.JoyounglinkServers"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <service android:name=".service.ListenSocketService"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_marginTop="26dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="食材编辑"
+            android:textColor="@color/color_333"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/base_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="20dp"
+            android:layout_toEndOf="@+id/img_back"
+            android:background="@mipmap/search_bg"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <android.support.v7.widget.AppCompatAutoCompleteTextView
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="30dp"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="输入你感兴趣的内容"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/color_9d"
+                android:textColorHint="@color/color_c7"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/complete_img"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="选择"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/color_0e"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

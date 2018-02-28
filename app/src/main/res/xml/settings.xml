@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="packet_interval"
+        android:inputType="numberDecimal"
+        android:defaultValue="@string/default_packet_interval"
+        android:title="@string/title_packet_interval"
+        android:summary="@string/summary_packet_interval" />
+
+</PreferenceScreen>

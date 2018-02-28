@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/zhenghaoyu/Android/joyoung/JYBX/G:\\JYBX\\PushSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_upush_notification.xml.flat",
+        "source": "/Users/zhenghaoyu/Android/joyoung/JYBX/G:\\JYBX\\PushSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\upush_notification.xml"
+    },
+    {
+        "merged": "/Users/zhenghaoyu/Android/joyoung/JYBX/PushSDK/build/intermediates/res/merged/androidTest/debug/layout_upush_notification.xml.flat",
+        "source": "/Users/zhenghaoyu/Android/joyoung/JYBX/PushSDK/build/intermediates/bundles/debug/res/layout/upush_notification.xml"
+    },
+    {
+        "merged": "/Users/zhenghaoyu/Coder/Android/joyoung/JYBX-master/PushSDK/build/intermediates/res/merged/androidTest/debug/layout_upush_notification.xml.flat",
+        "source": "/Users/zhenghaoyu/Coder/Android/joyoung/JYBX-master/PushSDK/build/intermediates/bundles/debug/res/layout/upush_notification.xml"
+    }
+]

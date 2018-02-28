@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="statusbar_view_height">56dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="fixed_height_bottom_padding">5dp</dimen>
+</resources>

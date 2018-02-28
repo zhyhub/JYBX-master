@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/zhenghaoyu/Coder/Android/joyoung/JYBX-master/circlerefresh/src/main/assets"/><source path="/Users/zhenghaoyu/Coder/Android/joyoung/JYBX-master/circlerefresh/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/zhenghaoyu/Coder/Android/joyoung/JYBX-master/circlerefresh/src/debug/assets"/></dataSet></merger>

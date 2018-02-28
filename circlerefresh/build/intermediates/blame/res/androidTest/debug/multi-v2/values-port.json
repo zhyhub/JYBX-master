@@ -1,0 +1,70 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhenghaoyu/Coder/Android/joyoung/JYBX-master/circlerefresh/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/zhenghaoyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/baeaa1d31fbeb4f2d82f48dccf562141/res/values-port/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "291",
+                        "endColumns": "55",
+                        "endOffsets": "342"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/zhenghaoyu/Android/joyoung/JYBX/circlerefresh/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/zhenghaoyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/baeaa1d31fbeb4f2d82f48dccf562141/res/values-port/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "291",
+                        "endColumns": "55",
+                        "endOffsets": "342"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/zhenghaoyu/Android/joyoung/JYBX/G:\\JYBX\\circlerefresh\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/zhenghaoyu/Android/joyoung/JYBX/C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.1.aar\\c293ab5ea2b59a9bb6e9195044a0dc6b\\res\\values-port\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "291",
+                        "endColumns": "55",
+                        "endOffsets": "342"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

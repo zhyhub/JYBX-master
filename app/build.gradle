@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        applicationId "com.bx.jz.jy.jybx"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        disable 'PrivateResource'
+    }
+    sourceSets.main {
+        jniLibs.srcDirs = ['src/jniLibs'];
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:cardview-v7:26.1.0'
+    compile 'com.jaeger.statusbarutil:library:1.4.0'
+    compile 'com.ashokvarma.android:bottom-navigation-bar:1.3.1'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.squareup.okhttp3:okhttp:3.8.1'
+    compile 'com.zt.maven.widget:refreshview:1.0.0'
+    compile 'org.adw.library:discrete-seekbar:1.0.1'
+    compile 'me.grantland:autofittextview:0.2.+'
+    compile 'com.github.bumptech.glide:glide:4.3.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.0'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.33'
+    compile 'com.youth.banner:banner:1.4.10'
+    //最新版本
+    compile 'com.github.zcweng:switch-button:0.0.3@aar'
+    compile 'com.yanzhenjie:recyclerview-swipe:1.1.3'
+    compile 'pub.devrel:easypermissions:1.0.1'
+    compile project(path: ':zxinglite')
+    compile project(':PushSDK')
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation files('libs/com.broadcom.cooee.jar')
+    implementation files('libs/Native_Libs2.jar')
+    implementation files('libs/codec.jar')
+    compile 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:+'
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
+    compile 'io.reactivex:rxandroid:1.0.1'
+    implementation project(':circlerefresh')
+}

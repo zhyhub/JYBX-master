@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_0e</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/color_0e</item>
+        <item name="toolbarStyle">@style/BaseToolbar</item>
+    </style>
+
+    <style name="BaseToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+    </style>
+
+    <!-- 全屏style -->
+    <style name="MyDialog" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!-- 是否有边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!--是否在悬浮Activity之上  -->
+        <item name="android:windowIsFloating">true</item>
+        <!--标题  -->
+        <item name="android:windowNoTitle">true</item>
+        <!--阴影  -->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <!-- 点外边可以消失  -->
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- 全屏style -->
+    <style name="SettingDialog" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!-- 是否有边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!--是否在悬浮Activity之上  -->
+        <item name="android:windowIsFloating">true</item>
+        <!--标题  -->
+        <item name="android:windowNoTitle">true</item>
+        <!--阴影  -->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>-->
+        <item name="android:windowBackground">@color/color_00</item>
+    </style>
+
+</resources>

@@ -1,0 +1,70 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/zhenghaoyu/Android/joyoung/JYBX/circlerefresh/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-w480dp-v13/values-w480dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/zhenghaoyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/baeaa1d31fbeb4f2d82f48dccf562141/res/values-w480dp-v13/values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "293,594",
+                        "endColumns": "61,71",
+                        "endOffsets": "350,661"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,117",
+                        "endColumns": "61,71",
+                        "endOffsets": "112,184"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/zhenghaoyu/Coder/Android/joyoung/JYBX-master/circlerefresh/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-w480dp-v13/values-w480dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/zhenghaoyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.1.1.aar/baeaa1d31fbeb4f2d82f48dccf562141/res/values-w480dp-v13/values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "293,594",
+                        "endColumns": "61,71",
+                        "endOffsets": "350,661"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,117",
+                        "endColumns": "61,71",
+                        "endOffsets": "112,184"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/zhenghaoyu/Android/joyoung/JYBX/G:\\JYBX\\circlerefresh\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/zhenghaoyu/Android/joyoung/JYBX/C:\\Users\\Administrator\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.1.1.aar\\c293ab5ea2b59a9bb6e9195044a0dc6b\\res\\values-w480dp-v13\\values.xml",
+                    "from": {
+                        "startLines": "4,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "293,594",
+                        "endColumns": "61,71",
+                        "endOffsets": "350,661"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,117",
+                        "endColumns": "61,71",
+                        "endOffsets": "112,184"
+                    }
+                }
+            ]
+        }
+    ]
+}

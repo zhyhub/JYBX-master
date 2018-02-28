@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/base_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="26dp"
+            android:background="@color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/back1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/color_0e"
+                    android:textSize="16sp"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/collect"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="20dp"
+                    android:src="@mipmap/collect" />
+
+                <ImageView
+                    android:id="@+id/share1"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="20dp"
+                    android:src="@mipmap/share1" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <com.tuesda.walker.circlerefresh.CircleRefreshLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:AniBackColor="#ff8b90af"
+            app:AniForeColor="#ffffffff"
+            app:CircleSmaller="6">
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffffff" />
+
+        </com.tuesda.walker.circlerefresh.CircleRefreshLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/stop_refresh"
+        android:text="Stop Refreshing"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

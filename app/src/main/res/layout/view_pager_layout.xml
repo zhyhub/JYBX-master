@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/shipu_1" />
+
+        <TextView
+            android:id="@+id/tv_name_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="米糊"
+            android:textColor="@color/color_666"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/shipu_2" />
+
+        <TextView
+            android:id="@+id/tv_name_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="蛋糕"
+            android:textColor="@color/color_666"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/shipu_3" />
+
+        <TextView
+            android:id="@+id/tv_name_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="法拉卷"
+            android:textColor="@color/color_666"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
